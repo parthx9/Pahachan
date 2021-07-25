@@ -1,23 +1,48 @@
+/* UNIVERSAL */
 *{
   margin: 0%;
   padding: 0%;
 }
+.text-1{
+  color: #246CB1;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+.text-2{
+  color:#FF7A00;
+  font-weight: 700;
+}
+.text-1::marker{
+  color: #FF7A00;
+}
+p, il, span{
+  color: #123257 ;
+}
+ul{
+  margin: 0%;
+  padding: 0;
+}
+
+/* HEADER */
 
 .header{
   display: flex;
   justify-content: space-between;
   padding: 1rem 2rem;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito', sans-serif !important;
   align-items: center;
   font-size: 18px;
   background: #FFFFFF;
   box-shadow: 0px 4px 4px rgba(222, 228, 237, 0.25);
 }
-.header .nav-list ul{
+.header .header-list ul{
   display: flex;
+  align-items: center;
   list-style: none;
+  margin: 0%;
+  padding: 0%;
 }
-.nav-list li{
+.header-list li{
   padding-right: 2rem;
 }
 .sign-in-btn button{
@@ -28,4 +53,37 @@
   font-family: 'Nunito', sans-serif;
   color: #fff;
   font-size: 18px;
+}
+
+/* CONTENT */
+.content{
+  background: #F9FBFF;
+  height: 90vh;
+  padding: 2rem 0;
+  font-family: 'Montserrat', sans-serif;
+}
+.quiz-box{
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 11px;
+  height: 100%;
+  position: relative;
+  padding: 4rem;
+}
+.quiz-box .details{
+  position: absolute;
+  background-color: #246CB1;
+  top: -20px;
+  right: 10px;
+  display: flex;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 1rem 0.5rem;
+}
+.quiz-box .details p{
+  color: #fff ;
+  margin: 0%;
+}
+.quiz-box .question{
+  width: 70%;
 }
