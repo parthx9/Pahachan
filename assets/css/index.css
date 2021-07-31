@@ -10,6 +10,37 @@ body{
   align-items: center;
   margin-top: 2rem;
 }
+.secondary-btn-2 button{
+  mix-blend-mode: normal;
+  border: 1px solid #181C47;
+  box-sizing: border-box;
+  border-radius: 26px;
+  padding: 0.5rem 2rem;
+  background: transparent !important;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: 'Nunito';
+  line-height: 25px;
+  text-align: center;
+  color: #181C47;
+}
+.third-btn{
+  margin-right: 1.5rem;
+}
+.third-btn button{
+  background: #2C86D9;
+  mix-blend-mode: normal;
+  border-radius: 25px;
+  border: none;
+  padding: 0.5rem 2rem;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+}
 .primary-btn{
   margin-right: 1.5rem;
 }
@@ -59,14 +90,14 @@ body{
 }
 .title-blue p{
   font-weight: 500;
-  font-size: 19px;
+  font-size: 1rem;
   line-height: 28px;
   color: #181C47;
   width: 50ch;
 }
 .title-white p{
   font-weight: 500;
-  font-size: 19px;
+  font-size: 1rem;
   line-height: 28px;
   color: #fff;
   width: 50ch;
@@ -152,7 +183,7 @@ body{
   font-size: 18px;
   line-height: 28px;
 }
-.banner-btn .fa-chevron-right{
+.banner-btn .fa-chevron-right, .third-btn .fa-chevron-right{
   position: absolute;
   right: 1.5rem;
   top: 30%;
@@ -178,6 +209,7 @@ body{
 
 .courses{
   padding: 80px 0rem;
+  background: url('../img/Index/stripes.png') top right no-repeat;
 }
 .courses .tab-pane{
   padding-top: 2rem;
@@ -227,16 +259,16 @@ body{
   margin-right: 0.5rem;
 }
 .course-card:nth-child(n){
-  background: linear-gradient(178.21deg, #028EC0 1.45%, #0C3959 98.49%);
+  background: url('../img/Index/circle.png') right bottom no-repeat, linear-gradient(178.21deg, #028EC0 1.45%, #0C3959 98.49%);
 }
 .course-card:nth-child(2n){
-  background: linear-gradient(180deg, #4F3F74 0%, #333446 100%);
+  background: url('../img/Index/triangle1.png') right bottom no-repeat, linear-gradient(180deg, #4F3F74 0%, #333446 100%);
 }
 .course-card:nth-child(3n){
-  background: linear-gradient(178.21deg, #02C065 1.45%, #0C592B 98.49%);
+  background: url('../img/Index/triangle.png') right bottom no-repeat, linear-gradient(178.21deg, #02C065 1.45%, #0C592B 98.49%);
 }
 .course-card:nth-child(4n){
-  background: linear-gradient(180deg, #155997 0%, #140840 100%);
+  background: url('../img/Index/rectangle.png') right bottom no-repeat, linear-gradient(180deg, #155997 0%, #140840 100%);
 }
 .courses .video-area{
   border-radius: 10px;
@@ -271,8 +303,8 @@ body{
 
 /* CONSULTATION */
 .consultation{
-  background: linear-gradient(100.35deg, #083955 11.99%, #0B2334 94.39%);
-  padding: 3rem 0rem;
+  background: url('../img/Index/fingerprint.png') top right no-repeat, linear-gradient(100.35deg, #083955 11.99%, #0B2334 94.39%);
+  padding: 4rem 0rem;
 }
 .advantage{
   color: #fff;
@@ -281,4 +313,56 @@ body{
 }
 .advantage h5{
   color: #FDBC50;
+}
+
+
+/* CONTACT */
+
+.contact{
+  padding: 4rem 0rem;
+  background: url('../img/Index/star.png') top right no-repeat;
+}
+.contact-advantages {
+  color: #181C47;
+}
+.contact-advantages h5{
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+/* STATS */
+
+.stats{
+  background: linear-gradient(99.49deg, #113055 0%, #296298 66.65%, #1D5483 99.19%);
+  padding: 4rem 0rem;
+  /* background-image: url('../img/Index/globe.png'); */
+}
+.stat-list{
+  color: #fff;
+  border-left: 3px solid #4BD0FF;
+  padding-left: 0.5rem;
+  margin: 2rem 0rem;
+}
+.stat-list h4{
+  font-weight: 700;
+  margin: 0px;
+  padding: 0rem;
+}
+
+/* STARTED */
+.started{
+  padding: 4rem 0rem;
+}
+.started-item{
+  display: flex;
+  color: #181C47;
+}
+.started-item h5{
+  font-weight: 700;
+}
+.started-item img{
+  object-fit: contain;
+}
+.started-item .details{
+  padding: 1rem;
 }
