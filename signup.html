@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/sign.css" />
+  <link rel="stylesheet" href="./assets/css/index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <script src="https://kit.fontawesome.com/efde882620.js" crossorigin="anonymous"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300&family=Nunito:wght@200;300;400;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <title>Pahachan</title>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <section class="header">
+    <div class="logo-brand">
+      <img src="./assets/img/logo.png" />
+    </div>
+    <div class="header-list">
+      <ul>
+        <li>Tests</li>
+        <li>Use Cases</li>
+        <li>Company</li>
+        <li>Blog</li>
+      </ul>
+    </div>
+    <div class="sign-in-btn btn">
+      <button>Sign In</button>
+    </div>
+  </section>
+  <!-- REGISTRATION -->
+  <div class="registration-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div style="height: 100%; display: flex; flex-direction: column; justify-content: center;">
+            <h3>
+              Register to Get Started
+            </h3>
+            <p>
+              We’ll create an account for you where you can check your results,
+              get customised tips and recommendations and more.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="box">
+            <h3 class="text-center mb-3">
+              Create an Account
+            </h3>
+            <form>
+              <div class="form-item">
+                <label for="fullName">Full Name</label>
+                <input id="fullName" placeholder="Enter your name" name="fullName" />
+              </div>
+              <div class="form-item">
+                <label for="email">Email</label>
+                <input id="email" placeholder="Enter email" name="email" />
+              </div>
+              <div class="form-item">
+                <label for="phone">Phone</label>
+                <input class="ps-5" id="phone" name="phone" />
+              </div>
+              <div class="form-item">
+                <label for="age">Age</label>
+                <input placeholder="Enter phone number" class="age-input me-3" value="15" id="age" name="age"
+                  type="number" /><span> years</span>
+              </div>
+              <div class="form-item">
+                <label for="occupation">Occupation</label>
+                <select class="form-select" id="occupation" name="occupation" aria-label="Default select example">
+                  <option value="Occupation 1" selected>Select by clicking here</option>
+                  <option value="Occupation 2">Occupation 2</option>
+                  <option value="Occupation 3">Occupation 3</option>
+                  <option value="Occupation 4">Occupation 4</option>
+                </select>
+              </div>
+              <div class="register-btn">
+                <button>Create Account</button>
+              </div>
+              <p class="text-center mb-0 mt-3">Have an Account? <a class="link1">Sign In</a></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./node_modules/intl-tel-input/build/js/intlTelInput.min.js"></script>
+  <script>
+    const input = document.querySelector("#phone");
+    intlTelInput(input, {
+      // any initialisation options go here
+    });
+  </script>
+</body>
+
+</html>

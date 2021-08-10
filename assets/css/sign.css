@@ -1,0 +1,83 @@
+@import url('../../node_modules/intl-tel-input/build/css/intlTelInput.min.css');
+.link1{
+  color: #7888F1;
+  font-weight: 600;
+  text-decoration: none;
+}
+.signin .label{
+  display: flex;
+  justify-content: space-between;
+}
+.signin label{
+  margin-bottom: 0.5rem;
+}
+.registration-area, .signin{
+  min-height: 85vh;
+  /* display: flex;
+  align-items: center; */
+  background: #F9FBFF;
+}
+.registration-area .box, .signin .box{
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 11px;
+  margin: 3rem 2rem;
+  padding: 3rem 2rem;
+}
+.signin .form-item {
+  margin-bottom: 2rem;
+}
+.registration-area .form-item{
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+.registration-area form label{
+  min-width: 30%
+}
+input:focus , select:focus{
+  outline: none;
+}
+input, select{
+  width: 100% ;
+  background: #F7F9FC;
+  padding: 0.5rem 0.5rem;
+  border: none;
+  border-radius: 4px;
+}
+.registration-area .iti input{
+  width: 100%;
+}
+.registration-area .age-input{
+  width: 80px;
+  background: #7883F0;
+  text-align: center;
+  color: #FFFFFF;
+}
+.register-btn button{
+  width: 100%;
+  display: block;
+  background: #7888F1;
+  border-radius: 6px;
+  font-family: 'Nunito';
+  font-style: normal;
+  border: none;
+  font-weight: bold;
+  padding: 0.5rem 0rem;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+  margin-top: 3rem;
+}
+.iti{
+  width: 100%;
+}
+.iti__selected-flag{
+  background: #7883F0;
+}
+
+.iti__flag {background-image: url("../../node_modules/intl-tel-input/build/img/flags.png");}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .iti__flag {background-image: url("../../node_modules/intl-tel-input/build/img/flags@2x.png");}
+}

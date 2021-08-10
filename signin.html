@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/sign.css" />
+  <link rel="stylesheet" href="./assets/css/index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <script src="https://kit.fontawesome.com/efde882620.js" crossorigin="anonymous"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300&family=Nunito:wght@200;300;400;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <title>Pahachan</title>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <section class="header">
+    <div class="logo-brand">
+      <img src="./assets/img/logo.png" />
+    </div>
+    <div class="header-list">
+      <ul>
+        <li>Tests</li>
+        <li>Use Cases</li>
+        <li>Company</li>
+        <li>Blog</li>
+      </ul>
+    </div>
+    <div class="sign-in-btn btn">
+      <button>Sign In</button>
+    </div>
+  </section>
+
+  <!-- SIGNIN -->
+  <div class="signin">
+    <div class="container">
+      <div class="row" style="justify-content: center;">
+        <div class="col-md-6">
+          <div class="box">
+            <h3 class="mb-4 text-center">Sign in to your account</h3>
+            <form>
+              <div class="form-item">
+                <div class="label">
+                  <label>Email</label>
+                </div>
+                <input id="email" name="email" placeholder="Enter your email address" />
+              </div>
+              <div class="form-item">
+                <div class="label">
+                  <label>Password</label>
+                  <span><a class="link1">Forgot your password?</a></span>
+                </div>
+                <input id="password" name="password" type="password" placeholder="Enter your password" />
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="timeperiod" id="timeperiod" checked>
+                <label class="form-check-label" for="timeperiod">
+                  Stay signed in for a week
+                </label>
+              </div>
+              <div class="register-btn">
+                <button>Sign In</button>
+              </div>
+              <p class="mb-0 mt-3">
+                Don't have an account? <a class="link1">Sign Up</a>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
