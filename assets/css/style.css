@@ -139,3 +139,17 @@ ul{
   height: 30px;
   width: 200px;
 }
+.img-placeholder{
+  height: 90%;
+  width: 100%;
+  background: #F9FBFF;
+}
+.type-3, .type-4{
+  padding: 1rem 0rem;
+}
+.type-3 label, .type-4 label{
+  padding: 0px;
+}
+.type-4 .option input[type= checkbox]:checked + label, .type-3 .option input[type= checkbox]:checked + label{
+  border: 2px solid #246CB1;
+}
