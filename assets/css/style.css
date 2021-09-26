@@ -56,8 +56,11 @@ ul{
 }
 
 /* CONTENT */
+.main-back{
+  background: url('../img/back2.png'), #F9FBFF !important;
+}
 .content{
-  background: #F9FBFF;
+  background: url('../img/back.png'), #F9FBFF;
   min-height: 90vh;
   padding: 2rem 0;
   font-family: 'Montserrat', sans-serif;
