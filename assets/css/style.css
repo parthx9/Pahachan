@@ -153,3 +153,36 @@ ul{
 .type-4 .option input[type= checkbox]:checked + label, .type-3 .option input[type= checkbox]:checked + label{
   border: 2px solid #246CB1;
 }
+
+/* MAIN QUIZ AREA */
+.quiz-title h3{
+  font-weight: 600;
+  font-size: 33px;
+  line-height: 45px;
+  color: #123257;
+}
+.quiz-details-title{
+  display: flex;
+  margin: 2rem 0rem;
+  justify-content: space-between;
+}
+.quiz-details-title h5{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 28px;
+  color: #7780F0;
+}
+.quiz-details-area li{
+  margin-bottom: 1rem;
+}
+.start-test-btn{
+  max-width: 400px;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  background: #465BE6;
+  border-radius: 6px;
+  color: #fff;
+  display: block;
+  margin: 4rem auto 1rem auto;
+}
